@@ -26,7 +26,7 @@ function Experience() {
       </div>
       <div className="mt-8 grid grid-cols-3 gap-8">
         {EXPItems.map((item) => (
-          <div className="rounded-md border border-accent p-8">
+          <div className="rounded-md border border-accent p-8" key={item.title}>
             <h6 className="text-xl font-bold mt-9 uppercase">{item.title}</h6>
             <p className="mt-3 text-muted-foreground">{item.desc}</p>
           </div>
