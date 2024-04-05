@@ -79,3 +79,8 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
+
+
+footer {
+  background: url("/Footer.svg") bottom / cover no-repeat;
+}
