@@ -84,3 +84,7 @@
 footer {
   background: url("/Footer.svg") bottom / cover no-repeat;
 }
+
+.about-billboard{
+  background: url("/images/about-billboard.jpg") bottom / cover no-repeat;
+}
