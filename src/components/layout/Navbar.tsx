@@ -40,7 +40,7 @@ export const Navbar = () => {
   return (
     <>
       <FloatingNav navItems={LINKS.slice(0, 3)} />
-      <div className="grid place-content-center w-full">
+      <div className="grid place-content-center w-full my-2">
         <Logo />
       </div>
 
