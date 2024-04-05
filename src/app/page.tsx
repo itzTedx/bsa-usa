@@ -1,9 +1,9 @@
-import Image from "next/image";
-import Billboard from "./_components/billboard";
-import About from "./_components/about";
 import Explore from "@/components/HeadAnim";
-import Products from "./_components/products";
+import About from "./_components/about";
+import Billboard from "./_components/billboard";
+import Categories from "./_components/categories";
 import Experience from "./_components/experience";
+import Products from "./_components/products";
 
 export default function Home() {
   return (
@@ -11,8 +11,9 @@ export default function Home() {
       <Billboard />
       <About />
       <Explore head="EXPLORE OUR" text="Products" />
-      <Products />
+      <Categories />
       <Experience />
+      <Products />
     </main>
   );
 }

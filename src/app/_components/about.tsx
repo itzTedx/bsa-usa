@@ -3,13 +3,13 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="grid grid-cols-3 gap-14 items-center my-9 max-w-6xl mx-auto">
+    <section className="grid sm:grid-cols-3 gap-14 items-center my-9 max-w-6xl mx-auto p-6">
       <div className="aspect-square flex-shrink-0 relative">
         <Image src="/about-rec.png" fill alt="" />
       </div>
-      <div className="col-span-2">
+      <div className="sm:col-span-2">
         <h5 className="text-3xl font-bold text-rose-600">About Us</h5>
-        <p className="text-justify mt-3">
+        <p className="text-balance mt-3">
           Builders Solutions Inc. was born from a vision to streamline
           international construction projects and empower businesses to achieve
           their global aspirations. We are a team of passionate and dedicated

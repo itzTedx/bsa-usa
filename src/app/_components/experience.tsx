@@ -24,7 +24,7 @@ function Experience() {
           The <span className="text-accent font-bold">Best Experience</span>
         </p>
       </div>
-      <div className="mt-8 grid grid-cols-3 gap-8">
+      <div className="mt-8 grid sm:grid-cols-3 gap-8">
         {EXPItems.map((item) => (
           <div className="rounded-md border border-accent p-8" key={item.title}>
             <h6 className="text-xl font-bold mt-9 uppercase">{item.title}</h6>

@@ -5,43 +5,51 @@ import { motion } from "framer-motion";
 import Logo from "../Logo";
 import Link from "next/link";
 import ChipTabs from "./tabs";
+import { FloatingNav } from "./Floating-Navbar";
+import { Home, LayoutList, UsersRound } from "lucide-react";
 
 export const Navbar = () => {
   const LINKS = [
     {
-      title: "Home",
+      name: "Home",
       link: "/",
+      icon: <Home className="h-6 w-6" />,
     },
     {
-      title: "About us",
+      name: "About us",
       link: "/about",
+      icon: <UsersRound className="h-6 w-6" />,
     },
     {
-      title: "Products",
+      name: "Products",
       link: "/products",
+      icon: <LayoutList className="h-6 w-6" />,
     },
     {
-      title: "Why us",
+      name: "Why us",
       link: "/why-us",
+      icon: <Home className="h-6 w-6" />,
     },
     {
-      title: "Contact us",
+      name: "Contact us",
       link: "/contact",
+      icon: <Home className="h-6 w-6" />,
     },
   ];
 
   return (
     <>
+      <FloatingNav navItems={LINKS.slice(0, 3)} />
       <div className="grid place-content-center w-full">
         <Logo />
       </div>
 
-      <nav className="sticky z-50 top-3 w-full max-w-7xl mx-auto bg-primary/80 backdrop-blur-md border border-white/10 h-14 rounded-xl flex items-center justify-center shadow-xl shadow-black/10">
+      <nav className="sticky z-50 w-full max-w-7xl mx-auto bg-primary border border-white/10 h-14 sm:rounded-xl flex items-center justify-center shadow-xl shadow-black/10">
         {/* <ChipTabs /> */}
-        <ul className="flex gap-10 mx-auto text-background">
-          {LINKS.map(({ title, link }) => (
-            <li key={title}>
-              <Link href={link}>{title}</Link>
+        <ul className="flex sm:gap-10 gap-6 text-sm sm:text-base mx-auto text-background">
+          {LINKS.map(({ name, link }) => (
+            <li key={name}>
+              <Link href={link}>{name}</Link>
             </li>
           ))}
         </ul>
@@ -52,7 +60,7 @@ export const Navbar = () => {
           Enquire Now
         </Button> */}
         <button
-          className="absolute group/btn flex space-x-2 items-center justify-center px-4 text-black rounded-md h-10 right-2 font-medium shadow-input bg-foreground dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
+          className="absolute group/btn hidden sm:flex space-x-2 items-center justify-center px-4 text-black rounded-md h-10 right-2 font-medium shadow-input bg-foreground dark:shadow-[0px_0px_1px_1px_var(--neutral-800)] "
           type="submit"
         >
           <span className="text-background font-bold text-sm uppercase tracking-wide">

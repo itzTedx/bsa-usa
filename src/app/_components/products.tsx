@@ -1,28 +1,73 @@
-import Image from "next/image";
-import React from "react";
+"use client";
 
-function Products() {
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+
+export function Example() {
   return (
-    <section className="container my-9">
-      <h5 className="font-light text-2xl mb-6">
-        <span className="text-rose-600 font-bold">Product </span>
-        Categories
-      </h5>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div className="relative aspect-[4/3] rounded-md overflow-hidden group">
-          <Image fill src="/bs.jpg" alt="" className="-z-30" />
-          <div className="test-rose-700 absolute bottom-0 p-6 text-background">
-            <h6 className="font-bold">Building Solutions</h6>
-            <p className="font-light">
-              Ensure structural longevity with expansion joints, tile movement
-              joints, and trims.
-            </p>
-          </div>
-          <span className="absolute h-2/4 group-hover:h-full transition-all bg-gradient-to-b from-accent/0 via-accent/00 to-accent/70 w-full bottom-0 left-0 select-none -z-20" />
-        </div>
-      </div>
-    </section>
+    <Carousel
+      plugins={[
+        Autoplay({
+          delay: 2000,
+        }),
+      ]}
+    >
+      // ...
+    </Carousel>
   );
 }
+
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import Image from "next/image";
+
+const Products = () => {
+  return (
+    <section className="container mt-20">
+      <h5 className="text-2xl text-accent font-bold">Products</h5>
+      <Carousel
+        opts={{
+          align: "start",
+        }}
+        plugins={[
+          Autoplay({
+            delay: 2000,
+          }),
+        ]}
+        className="w-full mx-auto mt-6"
+      >
+        <CarouselContent>
+          {Array.from({ length: 5 }).map((_, index) => (
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+              <Card>
+                <CardContent>
+                  <AspectRatio ratio={5 / 3.5}>
+                    <Image
+                      src="/movement-joints 1.png"
+                      alt="Image"
+                      fill
+                      className="rounded-md object-cover border border-black"
+                    />
+                  </AspectRatio>
+                </CardContent>
+                <CardFooter>
+                  <p>Movement Joints</p>
+                </CardFooter>
+              </Card>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+    </section>
+  );
+};
 
 export default Products;
