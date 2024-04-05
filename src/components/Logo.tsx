@@ -6,7 +6,7 @@ const Logo = () => {
     <Link href="/" className="flex items-center" title="Go to homepage">
       <div className="relative h-12 w-16 shrink-0 ">
         <Image
-          src="/BSI-logo.svg"
+          src="/BSI-Logo.svg"
           fill
           alt="Digital Desk Logo"
           className="object-contain"
