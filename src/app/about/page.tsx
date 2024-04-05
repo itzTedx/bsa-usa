@@ -28,7 +28,7 @@ const AboutPage = () => {
           arrive at the right place, at the right time, and in pristine
           condition. Additionally, our dedicated after-sales team is always
           available to address any concerns and provide ongoing support
-          throughout your project's life cycle.
+          throughout your project&apos;s life cycle.
         </p>
         <p>
           By partnering with Builders Solutions Inc., you gain access to a
@@ -51,10 +51,10 @@ const AboutPage = () => {
           <p className="mt-9 text-xl leading-8 font-light">
             To be the leading facilitator of seamless and sustainable
             construction projects across the globe. This vision statement
-            emphasizes the company's aspiration to become the go-to choice for
-            businesses seeking smooth and efficient international construction
-            solutions, while also incorporating the growing importance of
-            sustainability in the industry
+            emphasizes the company&apos;s aspiration to become the go-to choice
+            for businesses seeking smooth and efficient international
+            construction solutions, while also incorporating the growing
+            importance of sustainability in the industry
           </p>
         </div>
       </div>
