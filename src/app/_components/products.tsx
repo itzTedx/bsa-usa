@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-    <section className="container mt-20">
+    <section className="container mt-20 ">
       <h5 className="text-2xl text-accent font-bold">Products</h5>
       <Carousel
         opts={{
