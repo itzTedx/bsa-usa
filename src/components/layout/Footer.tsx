@@ -118,9 +118,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center py-5 border-t border-neutral-500">
-        <p className="text-neutral-600 font-light text-sm">
-          Copyright © 2022. All Rights Reserved
+      <div className="text-center py-5 border-t border-blue-950">
+        <p className="text-neutral-400 font-light text-sm">
+          Copyright © {new Date().getFullYear()}. All Rights Reserved
         </p>
       </div>
     </footer>
