@@ -62,7 +62,7 @@ const Footer = () => {
             Contact
           </h3>
           <div className="lg:text-left space-y-2">
-            <div className="flex flex-col md:flex-row items-start justify-center lg:justify-start space-x-2">
+            <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start space-x-2">
               <svg
                 className="h-5 w-5 fill-neutral-300"
                 xmlns="http://www.w3.org/2000/svg"
