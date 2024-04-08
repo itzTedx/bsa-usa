@@ -9,7 +9,7 @@ const WhyPage = () => {
         Why Us
       </h2>
       <div className="max-w-6xl mx-auto space-y-4 my-12">
-        <h2>
+        <h2 className="text-2xl">
           Why Choose <span className="font-bold">Builders Solutions Inc.?</span>
         </h2>
         <p>
