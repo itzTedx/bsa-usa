@@ -22,7 +22,7 @@ export const Navbar = () => {
     },
     {
       name: "Products",
-      link: "/products",
+      link: "/categories",
       icon: <LayoutList className="h-6 w-6" />,
     },
     {
