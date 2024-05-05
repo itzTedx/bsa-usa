@@ -24,8 +24,9 @@ const ExpansionJoints = () => {
           </div>
           <p>
             This wall + ceiling expansion joint system is surface mounted which
-            means it's perfect for renovations, retrofits and additions. The
-            dual odometer seal provides a secure fit and optimal flexibility.
+            means it&apos;s perfect for renovations, retrofits and additions.
+            The dual odometer seal provides a secure fit and optimal
+            flexibility.
           </p>
           <ul className="px-9 list-disc">
             <li>
@@ -33,7 +34,7 @@ const ExpansionJoints = () => {
               Ceiling/Wall
             </li>
             <li>Movement: +/- 25%</li>
-            <li>Joint width: 1"-3"</li>
+            <li>Joint width: 1&quot;-3&quot;</li>
             <li>Optional vapor barrier</li>
             <li>Optional fire rated </li>
             <li>
