@@ -10,17 +10,21 @@ function About() {
       <div className="">
         <h5 className="text-3xl font-bold text-rose-600">About Us</h5>
         <p className="text-balance mt-3 leading-7">
-          Builders Solutions Inc. was born from a vision to streamline
-          international construction projects and empower businesses to achieve
-          their global aspirations. We are a team of passionate and dedicated
-          professionals with extensive experience in the construction industry
-          and international trade. Our expertise spans from sourcing and
-          procurement to logistics and after-sales support, ensuring a smooth
-          and successful journey for each project. Our unwavering commitment to
-          quality, reliability, and customer satisfaction is the cornerstone of
-          everything we do. We believe in building strong partnerships with our
-          clients, understanding their unique needs, and exceeding their
-          expectations through personalized service and tailored solutions.
+          At Builders Solutions Inc, we hold a profound belief: the pursuit of
+          'better' is not a solitary endeavor, but a collaborative journey
+          fueled by shared opportunities. With a steadfast commitment to
+          understanding and addressing our customers' diverse and intricate
+          challenges, Builders Solutions Inc. emerges as a pioneering force in
+          architectural product problem-solving. Our approach is simple yet
+          trans-formative: we listen, we learn, and we innovate. This unwavering
+          dedication to our customers' needs has propelled many of our solutions
+          to the forefront of industry standards. Innovation isn't just a
+          buzzword for us; it's a way of life. By embracing complexity and
+          fostering collaboration, we continuously push the boundaries of what's
+          possible, setting new benchmarks for excellence in the process. Join
+          us at Builders Solutions Inc as we pave the way for a future where
+          people and buildings thrive together, united by the pursuit of
+          'better.
         </p>
         <div className="flex gap-6 mt-3">
           <Button variant="primary">More</Button>
