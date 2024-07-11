@@ -15,28 +15,28 @@ const AboutPage = () => {
         </h5>
         <p>
           At Builders Solutions Inc, we hold a profound belief: the pursuit of
-          'better' is not a solitary endeavor, but a collaborative journey
+          &apos;better&apos; is not a solitary endeavor, but a collaborative journey
           fueled by shared opportunities. With a steadfast commitment to
-          understanding and addressing our customers' diverse and intricate
+          understanding and addressing our customers&apos; diverse and intricate
           challenges, Builders Solutions Inc. emerges as a pioneering force in
           architectural product problem-solving. Our approach is simple yet
           trans-formative: we listen, we learn, and we innovate. This unwavering
-          dedication to our customers' needs has propelled many of our solutions
-          to the forefront of industry standards. Innovation isn't just a
-          buzzword for us; it's a way of life. By embracing complexity and
-          fostering collaboration, we continuously push the boundaries of what's
+          dedication to our customers&apos; needs has propelled many of our solutions
+          to the forefront of industry standards. Innovation isn&apos;t just a
+          buzzword for us; it&apos;s a way of life. By embracing complexity and
+          fostering collaboration, we continuously push the boundaries of what&apos;s
           possible, setting new benchmarks for excellence in the process. Join
           us at Builders Solutions Inc as we pave the way for a future where
           people and buildings thrive together, united by the pursuit of
-          'better.'
+          &apos;better.&apos;
         </p>
         <h5 className="font-bold text-xl">Social Responsibility: </h5>
         <p>
-          "Building for the greater good" is more than just a motto—it's our
+          "Building for the greater good" is more than just a motto—it&apos;s our
           commitment to creating positive change. Every day, we tackle intricate
           design and construction challenges while prioritizing sustainability
           and well-being. At Builders Solutions Inc, we understand the profound
-          impact our choices have on both people and the planet. That's why we
+          impact our choices have on both people and the planet. That&apos;s why we
           go beyond conventional practices, utilizing high-quality, sustainable
           products that not only meet the highest standards of performance but
           also prioritize the health and well-being of all stakeholders. With
