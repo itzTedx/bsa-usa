@@ -32,7 +32,7 @@ const AboutPage = () => {
         </p>
         <h5 className="font-bold text-xl">Social Responsibility: </h5>
         <p>
-          "Building for the greater good" is more than just a motto—it&apos;s our
+        &quot;Building for the greater good&quot; is more than just a motto—it&apos;s our
           commitment to creating positive change. Every day, we tackle intricate
           design and construction challenges while prioritizing sustainability
           and well-being. At Builders Solutions Inc, we understand the profound
